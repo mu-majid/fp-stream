@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "mocha",
-    "start": "node index.js"
+    "start": "node api.js && node index.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,6 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
-    "mocha": "^7.2.0"
+    "mocha": "^11.7.5"
   }
 }
